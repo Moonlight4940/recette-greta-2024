@@ -99,4 +99,13 @@ header ul li{/*espace entre les liens et taille des liens*/
 }
 
 
+.newsletter{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
 
+}
+.newsletter button{
+    margin-left: 20px;
+    padding: 8px 20px
+}
