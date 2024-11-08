@@ -10,13 +10,27 @@
     <div class="container">
         <header>
             <ul>
-                <li>Accueil</li>
-                <li>Recettes</li>
+                <li><a href="Accueil">Accueil</a></li>
+                <li><a href="recette-projet.html">Recettes</a></li>
                 <li>Contact</li>
             </ul>
         </header>
         <main>
-           
+            <form action="/action_page.php" method="get" name="myForm">
+                <label for="fname">prenom:</label>
+                <input type="text" id="fname" name="fname"><br><br>
+                <label for="lname">nom:</label>
+                <input type="text" id="lname" name="lname"><br><br>
+                <lable for ="email">email</lable>
+                <input type="text" id="email" name="email"><br><br>
+                <label for="service">Contacter le service</label>
+                <select name="contacter-le-service" id="service">
+                    <option value="informatique">informatique</option>
+                    <option value="commercial">commercial</option>
+                </select>
+                <label for="commentaire" type="textarea" aria-placeholder="Commentaire"></label>
+                <input type="button" onclick="formSubmit()" value="Send">
+              </form> 
         </main>
     </div>
 </body>
