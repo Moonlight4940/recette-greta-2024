@@ -72,3 +72,21 @@ header ul li{/*espace entre les liens et taille des liens*/
     margin-left: 20px;
     font-size: 1.6rem;
 }
+.gallerie{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+.gallerie article{
+    width: 32%;
+    margin-bottom: 20px;
+    flex-direction: column;
+}
+.gallerie article img{
+    width: 100%;
+}
+
+.gallerie article h2{
+    flex: 1; /*this keeps the h2 text right below the img*/
+}
