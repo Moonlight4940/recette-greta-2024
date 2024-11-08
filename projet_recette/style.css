@@ -55,3 +55,20 @@ section form button{
     background-color: blue;
     color: white;
 }
+
+/* accueil*/
+
+.container{
+    width: 700px; /*le design à largeur d'un écran de tablette ET petit écran PC*/
+    margin: 0 auto;
+}
+
+header ul{/*caller le menu en haut à droite*/
+    display:flex;
+    justify-content: flex-end;
+}
+
+header ul li{/*espace entre les liens et taille des liens*/
+    margin-left: 20px;
+    font-size: 1.6rem;
+}
