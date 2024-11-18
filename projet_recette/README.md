@@ -43,6 +43,8 @@ si il y a code dans un paragraphe `git commit`
 
 boonjour comment allez vous? (laisser deux éspaces après)  
 ça va bien
+(ajouter une bar horizonale: trois tirets)
+---
 
 ## liste complète des balises html
 
