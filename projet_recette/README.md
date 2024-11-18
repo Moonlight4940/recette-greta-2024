@@ -26,3 +26,33 @@ lien hypertexte :
 [lien vers google](https://google.fr)
 
 ### titre de niveau 3
+
+ajouter image
+![](Panda_géant.jpg)
+
+## afficher des lignes de commandes
+
+```
+git add .
+git commit -m"message"
+git push
+```
+si il y a code dans un paragraphe `git commit`
+
+## paragraphe avec saut de ligne
+
+boonjour comment allez vous? (laisser deux éspaces après)  
+ça va bien
+
+## liste complète des balises html
+
+```
+h1 h2 h3 ... h6
+p hr
+ul li ol li
+img
+a 
+pre code
+<input type="checkbox">
+hr
+```
